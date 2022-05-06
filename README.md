@@ -1,6 +1,6 @@
 ### EX NO: 03
 ### DATE:
-# <p align="center">MULTI-CLASS-CLASSIFICATION<p/>
+# <p align="center">MULTI CLASS CLASSIFICATION<p/>
 ## Aim:
 To write a python program to implement the multi class classification algorithm .
 
@@ -33,10 +33,12 @@ Scores from the last layer are passed through a SoftMax layer. The SoftMax laye
 6.Save the file and execute the program.
 
 ## Program:
-### Program to implement random classification.
-### Developed by   : S.SAFA
-### RegisterNumber :  212220230040
-
+```
+/* Program to implement random classification.
+Developed by   : S.SAFA
+RegisterNumber :  212220230040 */
+```
+```python
 from numpy import where
 from collections import Counter
 from sklearn.datasets import make_blobs
@@ -54,7 +56,7 @@ for label, _ in counter.items():
 pyplot.legend()
 pyplot.show()
 
-
+```
 ## Output:
 
 ![nn3](https://user-images.githubusercontent.com/75234912/163923414-0d0d790f-4426-47e3-8dc3-58557024dbfe.png)
